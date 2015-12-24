@@ -1,0 +1,4 @@
+.idea
+*.class
+out
+.idea/vcs.xml
