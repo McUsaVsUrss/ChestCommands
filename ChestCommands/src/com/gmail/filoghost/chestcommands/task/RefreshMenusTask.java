@@ -34,9 +34,7 @@ public class RefreshMenusTask implements Runnable {
 						}
 					}
 				}
-			}catch (ClassCastException ignored){
-                System.out.println("RefreshMenu task exception by inventory of " + player.getName());
-            }
+			}catch (ClassCastException ignored){}
 		}
 		elapsedTenths++;
 	}

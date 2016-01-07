@@ -68,7 +68,7 @@ public class InventoryListener implements Listener {
 				}
 			}
 		}catch (ClassCastException ignored){
-            System.out.println("RefreshMenu task exception by inventory of " + event.getWhoClicked().getName());
+            //System.out.println("RefreshMenu task exception by inventory of " + event.getWhoClicked().getName());
         }
 	}
 	
